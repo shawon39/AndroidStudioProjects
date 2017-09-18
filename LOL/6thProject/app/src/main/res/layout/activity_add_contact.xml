@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#6897bb">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a new Contact"
+        android:gravity="center"
+        android:textColor="#0e2f44"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <EditText
+        android:id="@+id/contactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#003366"
+        android:hint="Contact Name"
+        android:paddingBottom="15dp"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="#808080"/>
+    <EditText
+        android:id="@+id/contactMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#003366"
+        android:hint="Mobile Number"
+        android:layout_marginBottom="15dp"
+        android:paddingBottom="15dp"
+        android:textColorHint="#808080"/>
+    <EditText
+        android:id="@+id/contactEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textColor="#003366"
+        android:paddingBottom="15dp"
+        android:hint="Email Address"
+        android:textColorHint="#808080"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:background="#003366"
+        android:textColor="#f0f8ff"
+        android:text="Save"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:onClick="addContact"/>
+
+
+</LinearLayout>

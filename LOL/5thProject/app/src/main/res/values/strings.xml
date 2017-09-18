@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <string-array name="movie_title">
+
+        <item>Batman</item>
+        <item>Titanic</item>
+        <item>Ghost Hunter</item>
+        <item>Crazy World</item>
+        <item>Harry potter</item>
+        <item>Breaker</item>
+        <item>Mr Joker</item>
+        <item>Fast And last</item>
+        <item>Fighter</item>
+        <item>Bird Man</item>
+        <item>The Dark Knight</item>
+
+    </string-array>
+
+    <string-array name="movie_rating">
+
+        <item>Rating: 7.8/10</item>
+        <item>Rating: 7.3/10</item>
+        <item>Rating: 7.1/10</item>
+        <item>Rating: 6.8/10</item>
+        <item>Rating: 4.8/10</item>
+        <item>Rating: 7.8/10</item>
+        <item>Rating: 8.8/10</item>
+        <item>Rating: 9.8/10</item>
+        <item>Rating: 6.8/10</item>
+        <item>Rating: 5.8/10</item>
+        <item>Rating: 7.4/10</item>
+
+    </string-array>
+
+</resources>

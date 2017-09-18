@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b5b9c2"
+    android:padding="15dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_message"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_gravity="center"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fruit_apple"
+        android:text="@string/apple"
+        android:onClick="selectItem"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fruit_orange"
+        android:text="@string/orange"
+        android:onClick="selectItem"
+
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fruit_mango"
+        android:text="@string/mango"
+        android:onClick="selectItem"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fruit_grapes"
+        android:text="@string/grapes"
+        android:onClick="selectItem"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:background="#0e808b"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="finalSelection"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalResult"
+        android:textSize="15dp"
+        android:textColor="#292b12"
+        android:text="hehe hehe !!"
+        />
+
+</LinearLayout>

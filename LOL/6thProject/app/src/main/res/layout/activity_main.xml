@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:background="#6897bb"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:text="Time Picker"/>
+
+    <Button
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/timePicker"
+        android:text="Date Picker"/>
+
+    <Button
+        android:id="@+id/floating_context"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/datePicker"
+        android:text="Floating Context Menu"/>
+
+    <Button
+        android:id="@+id/contextual_action"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/floating_context"
+        android:text="Contextual Action"/>
+
+    <Button
+        android:id="@+id/listViewContextualAction"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/contextual_action"
+        android:text="ListView Contextual Action"/>
+    <Button
+        android:id="@+id/popup_Menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/listViewContextualAction"
+        android:text="Popup Menu"/>
+    <Button
+        android:id="@+id/radioButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/popup_Menu"
+        android:text="Menu With Radio Button"/>
+    <Button
+        android:id="@+id/shared_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/radioButton"
+        android:text="Shared Preference"/>
+        <Button
+            android:id="@+id/contact_home"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/shared_preferences"
+            android:text="Contact Home"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#eee8e0"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flash Light Image "
+        android:layout_marginTop="30px"
+        android:textSize="20sp"
+        android:textColor="#4d4f4f"
+        android:layout_gravity="center"
+        />
+    
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:src="@drawable/myimage"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The invention of the dry cell and miniature incandescent electric light bulbs made the first battery-powered flashlights possible around 1899."
+        android:textSize="40px"
+        android:textColor="#22333b"
+        android:layout_marginTop="30px"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mybutton"
+        android:background="#b8b7bb"
+        android:text="  Go to my website "
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>

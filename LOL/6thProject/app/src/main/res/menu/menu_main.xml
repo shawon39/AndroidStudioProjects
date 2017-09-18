@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/red_color"
+        android:title="Red"/>
+
+    <item
+        android:id="@+id/green_color"
+        android:title="Green" />
+
+    <item
+        android:id="@+id/black"
+        android:title="Black" />
+    <item
+        android:id="@+id/white"
+        android:title="White" />
+
+
+</menu>

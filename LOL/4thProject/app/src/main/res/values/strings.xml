@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">4th Project</string>
+    <string name="click_me">Click Me</string>
+    <string name="click_me_Too">Click Me Too</string>
+
+    <string-array name="coutry_name">
+
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria </item>
+
+    </string-array>
+
+    <string name="title_message">Select Fruits</string>
+    <string name="apple">Apple</string>
+    <string name="orange">Orange</string>
+    <string name="mango">Mango</string>
+    <string name="grapes">Grapes</string>
+    <string name="done">Done</string>
+
+
+    <string-array name="coutry_of_name">
+
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>Pakistan</item>
+        <item>India</item>
+        <item>England</item>
+        <item>Argentina</item>
+        <item>Canada</item>
+
+    </string-array>
+
+</resources>

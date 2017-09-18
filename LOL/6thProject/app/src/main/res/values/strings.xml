@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">My Application</string>
+
+    <string-array name="human_names">
+
+        <item>Rakib</item>
+        <item>Rubel</item>
+        <item>Sakib</item>
+        <item>Mashrafi</item>
+        <item>Tamim</item>
+        <item>Imrul</item>
+        <item>Kayes</item>
+        <item>Faysal</item>
+        <item>Mushfiq</item>
+        <item>Sabbir</item>
+
+    </string-array>
+
+    <string name="pref_file">App_pref_file</string>
+    <string name="FONT_size">App_font_size</string>
+    <string name="FONT_color">App_font_color</string>
+    <string name="TEXT_info">App_text_info</string>
+
+</resources>
