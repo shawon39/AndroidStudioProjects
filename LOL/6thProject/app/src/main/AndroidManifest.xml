@@ -26,7 +26,9 @@
         <activity android:name=".SharedPreferencesActivity" />
         <activity android:name=".Contact_homeActivity" />
         <activity android:name=".AddContactActivity" />
-        <activity android:name=".DataListActivity"></activity>
+        <activity android:name=".DataListActivity" />
+        <activity android:name=".SerchDBActivity" />
+        <activity android:name=".UpdateContactActivity"></activity>
     </application>
 
 </manifest>

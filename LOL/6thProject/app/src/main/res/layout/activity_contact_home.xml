@@ -33,6 +33,7 @@
         android:textColor="#003366"
         android:text="View Contacts"/>
     <Button
+        android:id="@+id/searchContact"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -40,6 +41,7 @@
         android:textColor="#003366"
         android:text="Search Contact"/>
     <Button
+        android:id="@+id/UpdateContact"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="60dp"

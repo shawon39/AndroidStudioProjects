@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class Contact_homeActivity extends AppCompatActivity {
 
-    Button button, button2;
+    Button button, button2, button3, button4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,6 +16,9 @@ public class Contact_homeActivity extends AppCompatActivity {
 
         button = (Button)findViewById(R.id.addContact);
         button2 = (Button)findViewById(R.id.viewContact);
+        button3 = (Button) findViewById(R.id.searchContact);
+        button4 = (Button) findViewById(R.id.UpdateContact);
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,6 +31,22 @@ public class Contact_homeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Contact_homeActivity.this, DataListActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Contact_homeActivity.this, SerchDBActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Contact_homeActivity.this, UpdateContactActivity.class);
                 startActivity(intent);
             }
         });
